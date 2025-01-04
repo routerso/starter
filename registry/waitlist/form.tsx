@@ -20,7 +20,7 @@ import { formSchema } from "./schema";
 
 type FormValues = z.infer<typeof formSchema>;
 
-export function ContactForm() {
+export function WaitlistForm() {
   const [state, formAction] = useActionState(submitWaitlistForm, {
     message: "",
   });

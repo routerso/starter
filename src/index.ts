@@ -81,6 +81,17 @@ console.log(chalk.blue("📦 Installing components...\n"));
         ROUTER_API_KEY=your_api_key
       `)
     );
+
+    console.log(
+      chalk.yellow("\nNote: Make sure to install and configure the following:")
+    );
+    console.log(
+      chalk.gray(`
+        > shadcn/ui form, input, label, textarea (and all their dependencies)
+        > React 19 (useActionState hook required for this starter)
+        > Next.js 15 (server actions and app router required for this starter)
+      `)
+    );
   } catch (error) {
     console.error(chalk.red("\n❌ Installation failed:"), error);
     process.exit(1);
