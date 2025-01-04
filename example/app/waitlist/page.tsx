@@ -1,5 +1,5 @@
 import { Main, Container, Section } from "@/components/craft";
-import { ContactForm } from "./form";
+import { WaitlistForm } from "./form";
 import { Hero } from "./hero";
 
 export default function Page() {
@@ -8,7 +8,7 @@ export default function Page() {
       <Hero />
       <Section>
         <Container>
-          <ContactForm />
+          <WaitlistForm />
         </Container>
       </Section>
     </Main>
