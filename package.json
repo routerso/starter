@@ -1,6 +1,6 @@
 {
   "name": "@9d8/router-start",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool to add contact and waitlist components to Next.js apps",
   "type": "module",
   "main": "dist/index.js",
