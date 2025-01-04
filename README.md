@@ -16,7 +16,7 @@ Pre-made components to get you started with Router.
 3. Use the npx command to install the components
 
 ```bash
-npx @router/starter
+npx @9d8/router-start
 ```
 
 It will add the following files to your project:
