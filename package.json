@@ -1,5 +1,5 @@
 {
-  "name": "@router/starter",
+  "name": "@9d8/router-start",
   "version": "1.0.0",
   "description": "CLI tool to add contact and waitlist components to Next.js apps",
   "type": "module",
