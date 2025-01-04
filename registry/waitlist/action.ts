@@ -24,7 +24,7 @@ export async function submitWaitlistForm(
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${process.env.ROUTER_API_KEY_WAITLIST}`,
+          Authorization: `Bearer ${process.env.ROUTER_API_KEY}`,
         },
         body: JSON.stringify(parsed.data),
       }

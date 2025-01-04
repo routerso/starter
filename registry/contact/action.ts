@@ -24,7 +24,7 @@ export async function submitContactForm(
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${process.env.ROUTER_API_KEY_CONTACT}`,
+          Authorization: `Bearer ${process.env.ROUTER_API_KEY}`,
         },
         body: JSON.stringify(parsed.data),
       }
